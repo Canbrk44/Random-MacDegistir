@@ -13,7 +13,7 @@ try:
     os.system("sudo apt install figlet")
     os.system("clear")
     subprocess.call(["figlet","-f","standard","RANDOM MAC"])
-    subprocess.call(["figlet","-f","small","CanBrk"])
+    subprocess.call(["figlet","-f","small","Canbrk"])
     time.sleep(2)
     interface = input("İnterface Giriniz (örn:eth0,ens33): ")
     time.sleep(2)
