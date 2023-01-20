@@ -10,12 +10,14 @@ def countdown(t):
         t -= 1
         time.sleep(1)
 try:
+    os.system("sudo apt install figlet")
+    os.system("clear")
     subprocess.call(["figlet","-f","standard","RANDOM MAC"])
     subprocess.call(["figlet","-f","standard","Can Burak"])
     time.sleep(2)
-    interface = input("İnterface Giriniz : ")
+    interface = input("İnterface Giriniz (örn:eth0,ens33): ")
     time.sleep(2)
-    print("Mac Adresinin Değişmesini İstediğiniz Zaman Aralığını Sayniye Cinsinden Giriniz  : ")
+    print("Mac Adresinin Değişmesini İstediğiniz Zaman Aralığını Saniye Cinsinden Giriniz  : ")
     seconds = input()
     while not seconds.isdigit():
         seconds = input()
