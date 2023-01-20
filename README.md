@@ -1,4 +1,4 @@
-# Random-Mac-De-i-tirici
+# Random-Mac-Degistirici
 Random Olarak Mac Adresinizi Değiştirir
 
 Programı sudo Yetkileri İle Başlatınız
